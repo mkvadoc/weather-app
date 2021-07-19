@@ -1,0 +1,26 @@
+.dayTime {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 95%;
+
+  .time_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 95px;
+    height: 101px;
+  }
+  .time {
+    color: #444444;
+    font-size: 16px;
+    line-height: 19, 2px;
+    padding: 5px 0px;
+    font-weight: 500;
+  }
+  .time_name {
+    font-size: 8px;
+    color: #999999;
+  }
+}

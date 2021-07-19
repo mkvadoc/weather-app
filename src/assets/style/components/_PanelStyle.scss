@@ -1,0 +1,44 @@
+.panel {
+  background-color: white;
+  border-radius: 25px 25px 0px 0px;
+  box-shadow: 0px -16px 40px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+  position: absolute;
+  top: 279px;
+  width: 100vw;
+  height: 130vw;
+
+  .mumbai {
+    display: flex;
+    justify-content: space-between;
+  }
+  .date {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    font-size: 13px;
+    text-align: center;
+    color: #999999;
+  }
+  .weather_status {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  button {
+    border: none;
+    border-radius: 0px 25px;
+    background: rgba(13, 159, 234, 0.08);
+    color: #0da0ea;
+    width: 180px;
+    height: 48px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #0da0ea;
+  }
+}

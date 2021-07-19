@@ -1,0 +1,58 @@
+.weatherRecords {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 95%;
+
+  .weather_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 95px;
+    height: 101px;
+  }
+  .weather_status {
+    text-align: center;
+    font-size: 18px;
+    line-height: 21.6px;
+    color: #000000;
+    text-transform: capitalize;
+    font-weight: 500;
+  }
+  .weather_item_temp {
+    display: flex;
+    align-items: center;
+  }
+  .weather_number {
+    font-style: normal;
+    font-size: 64px;
+    line-height: 77px;
+    letter-spacing: -0.05em;
+    font-weight: 300;
+  }
+  .weather_value {
+    width: 24px;
+    height: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #666666;
+  }
+  .weather_temp {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #666666;
+    margin-top: 10px;
+  }
+  .weather_item_max {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+  }
+}
